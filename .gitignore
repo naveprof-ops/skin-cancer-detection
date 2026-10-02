@@ -1,8 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
 venv/
+.env
+
+# Datasets and ZIP files
 dataset/
+small_dataset/
 HAM10000_images_part_1/
 HAM10000_images_part_2/
-HAM10000_metadata.csv
-model.h5
-__pycache__/
-*.pyc
+*.zip
+
+# VS Code
+.vscode/
